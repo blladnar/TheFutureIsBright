@@ -13,6 +13,8 @@
 		09461C7B220DAA1700897B81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09461C7A220DAA1700897B81 /* Assets.xcassets */; };
 		09461C7E220DAA1700897B81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09461C7C220DAA1700897B81 /* LaunchScreen.storyboard */; };
 		09461C89220DAA1700897B81 /* TheFutureIsBrightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09461C88220DAA1700897B81 /* TheFutureIsBrightTests.swift */; };
+		198ADBC36747761AC8CA2F3D /* Pods_TheFutureIsBright.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742D33BFF0F182E00D979E91 /* Pods_TheFutureIsBright.framework */; };
+		FF4D42FD49FCBCF90865B974 /* Pods_TheFutureIsBrightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC27FB11FF5B253BF339C4B /* Pods_TheFutureIsBrightTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,12 @@
 		09461C84220DAA1700897B81 /* TheFutureIsBrightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheFutureIsBrightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09461C88220DAA1700897B81 /* TheFutureIsBrightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFutureIsBrightTests.swift; sourceTree = "<group>"; };
 		09461C8A220DAA1700897B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF0BD0F3EEC20400A86392A /* Pods-TheFutureIsBright.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheFutureIsBright.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheFutureIsBright/Pods-TheFutureIsBright.release.xcconfig"; sourceTree = "<group>"; };
+		3FC27FB11FF5B253BF339C4B /* Pods_TheFutureIsBrightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheFutureIsBrightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6931E6C20E4E051D75E6D029 /* Pods-TheFutureIsBright.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheFutureIsBright.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheFutureIsBright/Pods-TheFutureIsBright.debug.xcconfig"; sourceTree = "<group>"; };
+		742D33BFF0F182E00D979E91 /* Pods_TheFutureIsBright.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheFutureIsBright.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6019F45BDCDEFD98147A3F /* Pods-TheFutureIsBrightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheFutureIsBrightTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheFutureIsBrightTests/Pods-TheFutureIsBrightTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC37183A8889C8E2C32EA722 /* Pods-TheFutureIsBrightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheFutureIsBrightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheFutureIsBrightTests/Pods-TheFutureIsBrightTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				198ADBC36747761AC8CA2F3D /* Pods_TheFutureIsBright.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4D42FD49FCBCF90865B974 /* Pods_TheFutureIsBrightTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				09461C72220DAA1400897B81 /* TheFutureIsBright */,
 				09461C87220DAA1700897B81 /* TheFutureIsBrightTests */,
 				09461C71220DAA1400897B81 /* Products */,
+				4392B92349F89CF6C16019B4 /* Pods */,
+				41C99A03CFF49AAF72E5E723 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = TheFutureIsBrightTests;
 			sourceTree = "<group>";
 		};
+		41C99A03CFF49AAF72E5E723 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				742D33BFF0F182E00D979E91 /* Pods_TheFutureIsBright.framework */,
+				3FC27FB11FF5B253BF339C4B /* Pods_TheFutureIsBrightTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4392B92349F89CF6C16019B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6931E6C20E4E051D75E6D029 /* Pods-TheFutureIsBright.debug.xcconfig */,
+				1FF0BD0F3EEC20400A86392A /* Pods-TheFutureIsBright.release.xcconfig */,
+				AC37183A8889C8E2C32EA722 /* Pods-TheFutureIsBrightTests.debug.xcconfig */,
+				7B6019F45BDCDEFD98147A3F /* Pods-TheFutureIsBrightTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09461C8D220DAA1700897B81 /* Build configuration list for PBXNativeTarget "TheFutureIsBright" */;
 			buildPhases = (
+				D6A9413723755B5241888197 /* [CP] Check Pods Manifest.lock */,
 				09461C6C220DAA1400897B81 /* Sources */,
 				09461C6D220DAA1400897B81 /* Frameworks */,
 				09461C6E220DAA1400897B81 /* Resources */,
+				520328F2A68A2B4E6708C88B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09461C90220DAA1800897B81 /* Build configuration list for PBXNativeTarget "TheFutureIsBrightTests" */;
 			buildPhases = (
+				72C1F56CE91DE737C405BD95 /* [CP] Check Pods Manifest.lock */,
 				09461C80220DAA1700897B81 /* Sources */,
 				09461C81220DAA1700897B81 /* Frameworks */,
 				09461C82220DAA1700897B81 /* Resources */,
@@ -191,6 +226,77 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		520328F2A68A2B4E6708C88B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TheFutureIsBright/Pods-TheFutureIsBright-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BrightFutures/BrightFutures.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrightFutures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheFutureIsBright/Pods-TheFutureIsBright-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72C1F56CE91DE737C405BD95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheFutureIsBrightTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6A9413723755B5241888197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheFutureIsBright-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		09461C6C220DAA1400897B81 /* Sources */ = {
@@ -358,6 +464,7 @@
 		};
 		09461C8E220DAA1700897B81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6931E6C20E4E051D75E6D029 /* Pods-TheFutureIsBright.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +482,7 @@
 		};
 		09461C8F220DAA1700897B81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF0BD0F3EEC20400A86392A /* Pods-TheFutureIsBright.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +500,7 @@
 		};
 		09461C91220DAA1800897B81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC37183A8889C8E2C32EA722 /* Pods-TheFutureIsBrightTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +521,7 @@
 		};
 		09461C92220DAA1800897B81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6019F45BDCDEFD98147A3F /* Pods-TheFutureIsBrightTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
