@@ -1,0 +1,6 @@
+framework module Pods_TheFutureIsBrightTests {
+  umbrella header "Pods-TheFutureIsBrightTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

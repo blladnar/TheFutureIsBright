@@ -1,0 +1,6 @@
+framework module Pods_TheFutureIsBright {
+  umbrella header "Pods-TheFutureIsBright-umbrella.h"
+
+  export *
+  module * { export * }
+}

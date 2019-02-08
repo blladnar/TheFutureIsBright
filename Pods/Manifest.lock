@@ -1,0 +1,20 @@
+PODS:
+  - BrightFutures (7.0.0):
+    - Result (~> 4.0.0)
+  - Result (4.0.0)
+
+DEPENDENCIES:
+  - BrightFutures
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BrightFutures
+    - Result
+
+SPEC CHECKSUMS:
+  BrightFutures: 7d7436e937dfc83d814c11920f157fc2a53f5bd5
+  Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
+
+PODFILE CHECKSUM: 10f3a95ca197bb482d3fe4526a174786fcecbba3
+
+COCOAPODS: 1.5.3
